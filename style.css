@@ -1,0 +1,166 @@
+body{
+    text-align: center;
+    font-size: 1rem;
+    color: #EAF6F6;
+}
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+.top-cloud{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 300px;
+    top: 0px;
+}
+
+.bottom-cloud{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 60px;
+}
+
+.Mountain{
+    height: 250px;
+    width:650px
+}
+
+h1{
+    
+    font-family: 'Sacramento', cursive;
+    font-display: fallback;
+    font-size: 3.5rem;
+    color: #66BFBF;
+   
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #11999E;
+    padding-bottom: 10px;
+}
+a{
+    color: #11999E;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;/*remove underline for anchor tag*/
+}
+a:hover { /*sudo class*/
+color: #EAF6F6;
+}
+h3{
+    color: #11999e;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.set1{
+    
+   align-items: center;
+    
+}
+
+.skill-row{
+    align-items: center;
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+hr {
+
+    border-style:  none ;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    /*border : dotted #EAF6F6 5px
+    bordr-bottom : none //comibine all above 4 lines*/
+    width: 8%;
+    
+    }
+
+.Intro {
+    width: 30%;
+    margin:  auto;
+}
+.top-container{
+    position: relative;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    margin: 20PX 25Px;
+    padding-top: 20px;
+
+}
+.contact-me {
+    margin: 100px auto;
+}
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.Profile-pic{
+    height: 150px;
+    width: 150px;
+}
+
+.web{
+    height: 25%;
+    width: 25%;
+    float: left;/*to wrap image left of text. but in case of positioning elm dont use this property instead use position(relative/absolute etc)*/
+    margin-right: 30px; /*to giva space between img and text,so whenever we have to align/move something set margin property*/
+}
+/*.web-para {
+    clear: right;/*work as unti float and in our case just move p to the bottom of image and not the h3 tag title of skill*/
+
+.sql{
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.chocolate{
+    width: 40%;
+    margin: 40px auto ;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999B);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999B);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999b);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999b);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 10;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000; 
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    height: 20px;
+    width: 120px;
+    }
+    
+    .btn:hover {
+    border:solid #337FED 1px;
+    background: #2BDEE5;
+    background-image: -webkit-linear-gradient(top, #2BDEE5, #3BC4AD);
+    background-image: -moz-linear-gradient(top, #2BDEE5, #3BC4AD);
+    background-image: -o-linear-gradient(top, #2BDEE5, #3BC4AD);
+    background-image: linear-gradient(to bottom, #2BDEE5, #3BC4AD);
+    border-radius: 8px;
+    text-decoration: none;
+    }
